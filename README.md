@@ -17,7 +17,7 @@ Die gesamte Umgebung läuft auf verschiedenen Ubunut-VM's die mit einem Vagrantf
 
 ![Architektur](Grafana.png)
 
-Die Projekt beinhaltet folgende Komponenten:
+Das Projekt beinhaltet folgende Komponenten:
 
 | Komponente | Aufgabe |
 |------------|---------|
@@ -25,3 +25,21 @@ Die Projekt beinhaltet folgende Komponenten:
 | **Grafana** | Zur grafischen Darstellung des Lastentests auf Influxdb |
 | **Influxdb** | Zum speichern der Messdaten vom Lastentest   |
 | **Lastenscript** | Zur Ausführen des Lastentest |
+
+## Voraussetzungen
+
+1. Git
+2. Virtualbox oder Paralles
+3. Vagrant 2.4 oder neuer
+4. Mindestens 4GB Arbeitsspeicher
+5. Mindestens 10GB RAM
+6. Internentanbindung
+
+## Installation und Konfiguaration
+
+Als erstes kann das Vagrantfile aus meinem Git Repo geklont werden: 
+
+Mit diesem File kann eine VM für Granfan und eine für Influxdb hochgezogen werden.
+
+
+
