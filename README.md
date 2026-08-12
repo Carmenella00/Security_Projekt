@@ -16,3 +16,14 @@ Die gesamte Umgebung läuft auf verschiedenen Ubunut-VM's die mit einem Vagrantf
 ## Architektur
 
 ![Architektur](Grafana.png)
+
+Die Projekt beinhaltet folgende Komponenten:
+
+| Komponente | Aufgabe |
+|------------|---------|
+| **Vagrant** | Zum erstellen, verwalten und starten sowie stoppen der virtuellen Maschinen|
+| **Grafana** | Zur grafischen Darstellung des Lastentests auf Influxdb |
+| **Telegraf** | Zum Empfangen der MQTT-Daten und übetragung zu Influxdb |
+| **Mosquitto** | Als MQTT-Broker zum empfangen und weiterleiten der Daten|
+| **Influxdb** | Zum speichern der Messdaten vom Lastentest   |
+| **Lastenscript** | Zur Ausführen des Lastentest |
