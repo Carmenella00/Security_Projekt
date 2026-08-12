@@ -15,4 +15,4 @@ Die gesamte Umgebung läuft auf verschiedenen Ubunut-VM's die mit einem Vagrantf
 
 ## Architektur
 
-![Architektur](Documents/Teko/security/projekt/Grafana.png)
+![Architektur](Grafana.png)
