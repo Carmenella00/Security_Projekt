@@ -1,7 +1,7 @@
 # Security_Projekt
 
 ## Projektübersicht
-In diesem Projekt habe ich eine Umgebung mit Grafana, Mosquitto und Influxb aufgebaut. Das Ziel ist es einen Lastentest zu machen auf Influxdb. Die Daten werden dann ausgewertet und mit den Grafanadashboards dargestellt. Dieses Projekt dient einer Angriffsimulation.
+In diesem Projekt habe ich eine Umgebung mit Grafana und Influxb aufgebaut. Das Ziel ist es einen Lastentest zu machen auf Influxdb. Die Daten werden dann ausgewertet und mit den Grafanadashboards dargestellt. Dieses Projekt dient einer Angriffsimulation.
 
 Die gesamte Umgebung läuft auf verschiedenen Ubunut-VM's die mit einem Vagrantfile erstellt wurden.
 
@@ -23,7 +23,5 @@ Die Projekt beinhaltet folgende Komponenten:
 |------------|---------|
 | **Vagrant** | Zum erstellen, verwalten und starten sowie stoppen der virtuellen Maschinen|
 | **Grafana** | Zur grafischen Darstellung des Lastentests auf Influxdb |
-| **Telegraf** | Zum Empfangen der MQTT-Daten und übetragung zu Influxdb |
-| **Mosquitto** | Als MQTT-Broker zum empfangen und weiterleiten der Daten|
 | **Influxdb** | Zum speichern der Messdaten vom Lastentest   |
 | **Lastenscript** | Zur Ausführen des Lastentest |
