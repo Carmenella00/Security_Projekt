@@ -8,7 +8,7 @@ Die gesamte Umgebung läuft auf verschiedenen Ubunut-VM's die mit einem Vagrantf
 ## Ziel des Projektes
 
 1. Vagrantfile erstellen
-2. Grafana, Mosquitto und Influxdb einrichten
+2. Grafana und Influxdb einrichten
 3. Script für den Lastentest erstellen
 4. Lastentest durchführen
 5. Grafanadashboards erstellen
